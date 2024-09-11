@@ -1,0 +1,88 @@
+/* Custom Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero-section {
+  height: 60vh;
+  background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+  color: #ffffff;
+}
+
+/* Services Section */
+.service-card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+  width: 80px;
+  height: 80px;
+}
+
+/* About Section */
+#about {
+  background-color: #f8f9fa;
+}
+
+#about h3 {
+  color: #007bff;
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+}
+
+.contact-form .form-control,
+.contact-form .form-select,
+.contact-form .btn-primary {
+  border-radius: 5px;
+}
+
+.contact-form .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.contact-form .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7); /* Optional: Darken image for text readability */
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Adds contrast to text */
+}
